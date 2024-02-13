@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: auto;
+}
+
+.titulo {
+    color: #421C86;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.titulo2 {
+    color: #421C86;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem; 
+    text-align: center;
+    margin-top: -20px;
+}
+
+.imagem {
+    display: flex; 
+    height: 700px;
+    justify-content: center;
+}
+
+.imagem_estrela {
+    display: flex;
+    position: absolute;
+    top: 60px; right: 100px;
+    max-width: 100%;
+    height: auto; 
+}
+
+.imagem_estrela_2 {
+    display: flex;
+    position: absolute;
+    top: 900px; left: 100px; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+@media (max-width: 1080px) { 
+    .imagem_estrela,
+    .imagem_estrela_2 {
+        display: none; 
+}}
+
+.link {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao {
+    background-color: #421C86;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.link :hover {
+    background-color: #825fbe;
+}
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.cabecalho__menu__link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #421C86;
+    text-decoration: none;
+}
+
+.rodape {
+    background-color: #421C86;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 50px;
+    pointer-events: none;
+}
+
+.como_funciona,
+.requisitos {
+    font-size: 3rem; 
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0 0 0;
+    margin: 1px 320px;
+}
+.requisitos_como {
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+.comece_agora {
+    font-size: 3rem; 
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0 0 0px;
+}
+
+.como_funciona_como {
+    margin: 10px 300px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.comece_agora_como {
+    margin: 0 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.imagem_saiba-mais {
+    display: flex;
+    height: 1600px;
+    position: relative;
+    justify-content: center;
+    max-width: auto;
+}
+
+.rodape_imagem {
+    background-color: #421C86;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    max-width: 100%;
+}
+
+.formulario_inicio {
+  border: #421C86;
+}
+
+.formulario_fazer {
+    max-width: 100vh;
+    margin: 0 auto;
+    height: 70px;
+    background-color: #ffffff;
+}
+
+.formulario_fazer :hover {
+    background-color: #614f81;
+}
