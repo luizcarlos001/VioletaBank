@@ -7,4 +7,3 @@
 ![WhatsApp Image 2024-02-13 at 14 40 54](https://github.com/luizcarlos001/Site-Eco-Vida/assets/146375880/6361d004-1e08-449a-a776-12e93c562e6d)
 ![WhatsApp Image 2024-02-13 at 14 39 28](https://github.com/luizcarlos001/Site-Eco-Vida/assets/146375880/bf06e839-c005-4ecd-ac79-7c95326c6e75)
 
-### Linkedin: https://www.linkedin.com/in/luizcarlosgomesjr/
